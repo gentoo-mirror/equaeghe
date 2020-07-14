@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<!-- maintainer-needed -->
+	<longdescription>
+		French dictionaries for myspell/hunspell
+	</longdescription>
+	<stabilize-allarches></stabilize-allarches>
+	<upstream>
+		<doc lang="fr">https://grammalecte.net/documentation.php?prj=fr</doc>
+		<bugs-to>https://grammalecte.net/forum.php?prj=fr%26f=3</bugs-to>
+	</upstream>
+</pkgmetadata>
