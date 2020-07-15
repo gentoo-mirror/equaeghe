@@ -1,1 +1,2 @@
 app-dicts/myspell-fr 6.3: French dictionaries for myspell/hunspell
+dev-db/arangodb 3.7.0.1: Multi-model highly available NoSQL database
