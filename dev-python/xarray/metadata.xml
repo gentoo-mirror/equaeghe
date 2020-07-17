@@ -6,6 +6,10 @@
 		<name>Python</name>
 	</maintainer>
 	<upstream>
+		<maintainer status="active">
+			<email>xarray@googlegroups.com</email>
+			<name>xarray Developers</name>
+		</maintainer>
 		<remote-id type="pypi">xarray</remote-id>
 		<remote-id type="github">pydata/xarray</remote-id>
 		<doc>https://xarray.pydata.org/</doc>
