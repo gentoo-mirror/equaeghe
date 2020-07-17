@@ -28,6 +28,7 @@ BDEPEND="
 	zlib? ( virtual/pkgconfig )
 "
 RDEPEND="
+	!!mail-client/trojita
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtnetwork:5[ssl]
