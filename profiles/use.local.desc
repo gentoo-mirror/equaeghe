@@ -3,3 +3,5 @@
 # * generated automatically using pmaint *
 
 dev-db/arangodb:lto - Enable link-time optimization.
+dev-python/netcdf4-python:dap - Support for remote data access with the netCDF DAP client
+dev-python/netcdf4-python:hdf - Add support for the Hierarchical Data Format v.4 sci-libs/hdf
