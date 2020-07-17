@@ -13,6 +13,7 @@
 			<name>ArangoDB, Inc.</name>
 			<email>hackers@arangodb.com</email>
 		</maintainer>
+	<remote-id type="github">arangodb/arangodb</remote-id>
 		<changelog>https://github.com/arangodb/arangodb/blob/devel/CHANGELOG</changelog>
 		<doc>https://www.arangodb.com/documentation/</doc>
 		<bugs-to>https://github.com/arangodb/arangodb/issues</bugs-to>
