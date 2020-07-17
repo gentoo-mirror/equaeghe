@@ -3,13 +3,12 @@
 
 EAPI=7
 
+MY_PN=trojita
+
 if [[ ${PV} = *9999* ]]; then
-	EGIT_REPO_URI="https://github.com/equaeghe//${PN}.git"
+	EGIT_REPO_URI="https://github.com/equaeghe/${MY_PN}.git"
 	EGIT_BRANCH="live"
 	inherit git-r3
-else
-	SRC_URI="mirror://sourceforge/${PN}/${P}.tar.xz"
-	KEYWORDS="~amd64 ~x86"
 fi
 inherit cmake virtualx xdg
 
