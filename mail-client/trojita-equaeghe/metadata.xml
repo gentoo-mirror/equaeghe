@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+	<use>
+		<flag name="abook">Enables <pkg>app-misc/abook</pkg> support</flag>
+		<flag name="password">Store passwords securely via <pkg>dev-libs/qtkeychain</pkg></flag>
+		<flag name="pim">Enable support for KDE PIM resources integration via <pkg>kde-apps/akonadi</pkg> addressbook plugin</flag>
+	</use>
+	<upstream>
+		<remote-id type="github">equaeghe/trojita</remote-id>
+	</upstream>
+</pkgmetadata>
