@@ -5,7 +5,7 @@
 	<longdescription>
 		French dictionaries for myspell/hunspell
 	</longdescription>
-	<stabilize-allarches></stabilize-allarches>
+	<stabilize-allarches />
 	<upstream>
 		<doc lang="fr">https://grammalecte.net/documentation.php?prj=fr</doc>
 		<bugs-to>https://grammalecte.net/forum.php?prj=fr%26f=3</bugs-to>

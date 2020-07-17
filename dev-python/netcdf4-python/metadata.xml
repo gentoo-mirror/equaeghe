@@ -10,7 +10,7 @@
 	</longdescription>
 	<use>
 		<flag name="dap">Support for remote data access with the netCDF DAP client</flag>
-		<flag name="hdf">Add support for the Hierarchical Data Format v.4 sci-libs/hdf</flag>
+	<flag name="hdf">Add support for the Hierarchical Data Format v.4 <pkg>sci-libs/hdf</pkg></flag>
 	</use>
 	<upstream>
 		<remote-id type="pypi">netCDF4</remote-id>
