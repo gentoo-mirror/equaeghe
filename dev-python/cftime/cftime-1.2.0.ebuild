@@ -13,7 +13,7 @@ SRC_URI="mirror://pypi/${P:0:1}/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-3"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 
 # more dependencies should be added to deal with docs and tests
 # see https://github.com/Unidata/cftime/blob/master/requirements-dev.txt
