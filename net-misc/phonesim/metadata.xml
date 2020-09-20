@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE pkgmetadata SYSTEM "http://www.gentoo.org/dtd/metadata.dtd">
+<pkgmetadata>
+  <!-- maintainer-needed -->
+	<longdescription>
+		Phone Simulator for modem testing (oFono)
+	</longdescription>
+	<upstream>
+		<maintainer status="active">
+			<name>Intel Open Source</name>
+		</maintainer>
+		<changelog>https://git.kernel.org/pub/scm/network/ofono/phonesim.git/tree/ChangeLog</changelog>
+		<bugs-to>https://01.org/jira/browse/OF</bugs-to>
+	</upstream>
+</pkgmetadata>
