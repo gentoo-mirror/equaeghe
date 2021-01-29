@@ -24,6 +24,7 @@ RESTRICT="!test? ( test )"
 
 BDEPEND="
 	dev-qt/linguist-tools:5
+	<=dev-util/ragel-7.0.0.9
 	zlib? ( virtual/pkgconfig )
 "
 RDEPEND="
