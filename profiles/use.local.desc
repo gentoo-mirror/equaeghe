@@ -3,8 +3,6 @@
 # * generated automatically using pmaint *
 
 dev-db/arangodb:lto - Enable link-time optimization.
-dev-python/netcdf4-python:dap - Support for remote data access with the netCDF DAP client
-dev-python/netcdf4-python:hdf - Add support for the Hierarchical Data Format v.4 sci-libs/hdf
 mail-client/trojita-equaeghe:abook - Enables app-misc/abook support
 mail-client/trojita-equaeghe:password - Store passwords securely via dev-libs/qtkeychain
 mail-client/trojita-equaeghe:pim - Enable support for KDE PIM resources integration via kde-apps/akonadi addressbook plugin
