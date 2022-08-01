@@ -1,6 +1,5 @@
 app-admin/sshguard 2.4.0-r1 99999: protects hosts from brute force attacks against ssh
 app-dicts/myspell-fr 6.3: French dictionaries for myspell/hunspell
-dev-db/arangodb 3.7.0.1: Multi-model highly available NoSQL database
 mail-client/trojita-equaeghe 9999: A Qt IMAP e-mail client
 net-misc/phonesim 9999: Phone Simulator for modem testing (oFono)
 sci-mathematics/pymc3 3.1-r3: Bayesian Modeling and Probabilistic Machine Learning in Python
