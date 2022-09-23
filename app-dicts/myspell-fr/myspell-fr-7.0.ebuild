@@ -1,13 +1,10 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=7
 
 MYSPELL_DICT=(
-	# Moderne = selection of classic and reformed orthography
-	"fr-moderne.aff"
-	"fr-moderne.dic"
-	# Classique = Moderne + more classical word variants (the recommended variant)
+	# Classique (the recommended variant)
 	# FR region hack to deal with LibreOffice bug, see src_prepare
 	"fr_FR.aff"
 	"fr_FR.dic"
@@ -47,7 +44,6 @@ src_prepare() {
 	# as this gives a nicer presentation in Firefox
 	# (due to it following bcp47 rules)
 	#
-	# fr-moderne is already OK
 	# fr-classique is recommended so rename to fr
 	mv fr-classique.aff fr.aff || die
 	mv fr-classique.dic fr.dic || die
@@ -73,3 +69,5 @@ src_prepare() {
 
 	eapply_user
 }
+
+DOCS=( package-description.txt README_dict_fr.txt README_hyph_fr-2.9.txt README_hyph_fr-3.0.txt README_thes_fr.txt )
