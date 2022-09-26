@@ -8,6 +8,6 @@
 	<stabilize-allarches />
 	<upstream>
 		<doc lang="fr">https://grammalecte.net/documentation.php?prj=fr</doc>
-		<bugs-to>https://grammalecte.net/forum.php?prj=fr%26f=3</bugs-to>
+		<bugs-to>https://grammalecte.net/forum.php?prj=fr</bugs-to>
 	</upstream>
 </pkgmetadata>
