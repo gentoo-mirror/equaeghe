@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2023 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -6,7 +6,7 @@ EAPI=7
 MY_PN=trojita
 
 if [[ ${PV} = *9999* ]]; then
-	EGIT_REPO_URI="https://github.com/equaeghe/${MY_PN}.git"
+	EGIT_REPO_URI="https://invent.kde.org/equaeghe/${MY_PN}.git"
 	EGIT_BRANCH="live"
 	inherit git-r3
 fi
@@ -28,7 +28,6 @@ BDEPEND="
 	zlib? ( virtual/pkgconfig )
 "
 RDEPEND="
-	!!mail-client/trojita
 	dev-qt/qtcore:5
 	dev-qt/qtgui:5
 	dev-qt/qtnetwork:5[ssl]

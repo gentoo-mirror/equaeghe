@@ -7,6 +7,6 @@
 		<flag name="pim">Enable support for KDE PIM resources integration via <pkg>kde-apps/akonadi</pkg> addressbook plugin</flag>
 	</use>
 	<upstream>
-		<remote-id type="github">equaeghe/trojita</remote-id>
+		<remote-id type="kde-invent">equaeghe/trojita</remote-id>
 	</upstream>
 </pkgmetadata>
